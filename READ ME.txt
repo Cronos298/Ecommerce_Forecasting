@@ -1,0 +1,26 @@
+# E-commerce Sales Forecasting Dashboard
+
+## Overview
+This project builds an end-to-end solution to predict future e-commerce sales and visualize the results in an interactive dashboard. It includes:
+- An ETL pipeline to extract, transform, and load data.
+- A forecasting model using Prophet to predict sales.
+- A Streamlit dashboard to display historical and forecasted sales.
+
+## How to Run
+1. Install Python** and set up a virtual environment.
+2. Install required packages: pandas numpy matplotlib plotly streamlit prophet scikit-learn
+3. Run the ETL pipeline
+4. Run the Forecasting model
+5. Launch the Dashboard
+
+## Project Structure
+- `ecommerce_data.csv` - The raw sales data.
+- `clean_ecommerce_data.csv` - The cleaned data after the ETL process.
+- `etl_pipeline.py` - Code for data extraction, transformation, and loading.
+- `forecasting.py` - Code for training the forecasting model and plotting predictions.
+- `dashboard.py` - Code for creating an interactive dashboard.
+- `README.md` - Documentation and instructions.
+
+## Future Improvements
+- Enhance the dashboard with more filtering options.
+- Improve model accuracy with more advanced techniques.
